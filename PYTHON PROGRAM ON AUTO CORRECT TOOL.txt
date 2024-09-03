@@ -1,6 +1,6 @@
 PYTHON PROGRAM ON AUTO CORRECT TOOL
 
-from textblob import TextBlob   ##### for installing library use this command :  pip install textblob
+from textblob import TextBlob  
 from tkinter import *
 
 
@@ -40,7 +40,7 @@ Output_text = Text(root,font = 'arial 13',bg='WHITE',fg='BLACK', height = 11, wr
 Output_text.place(x = 600 , y = 130)
 
 
-##########  Correction Button ########
+#Correction Button 
 auto_correct_btn = Button(root, text = 'Auto Correct',bg='GREEN',font = 'arial 18 bold',pady = 5,command = Auto_correct)
 auto_correct_btn.place(x = 510, y = 360)
 
